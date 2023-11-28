@@ -11,4 +11,4 @@
 using Pluto
 Pluto.run()
 ```
-A browser window opens, select the `warcraft_TP.jl` notebook.
+A browser window opens, select the `notebook.jl` notebook.
