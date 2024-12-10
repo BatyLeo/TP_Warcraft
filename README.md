@@ -2,8 +2,8 @@
 
 ## Get started
 
-1) Before running the notebook, please download the [dataset](http://cermics.enpc.fr/~bouvierl/warcraft_TP/data.zip) and place it in the 
-`/data` folder of this repo.
+1) Before running the notebook, please download the [dataset](http://cermics.enpc.fr/~bouvierl/warcraft_TP/data.zip) and place it in a 
+`/data` folder in this repository.
 
 2) Open a Julia REPL in the folder of this repo, and run:
 
