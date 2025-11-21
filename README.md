@@ -11,4 +11,5 @@
 using Pluto
 Pluto.run()
 ```
-A browser window opens, select the `notebook.jl` notebook.
+A browser window opens, select the `01_demo.jl` notebook to start.
+Also select the `02_warcraft.jl`in another tab, it can take a while to load dependencies the first time.
