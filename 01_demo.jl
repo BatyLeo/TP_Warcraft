@@ -444,7 +444,7 @@ md"Contour plot of the differentiable loss:"
 md"## Visualizing gradients"
 
 # ╔═╡ 0e022469-7d68-4a54-a577-e7b7d3ae4cb9
-question_box(md"3. What's the impact of the `variance_reduction` parmaeter on the gradients?")
+question_box(md"3. What's the impact of the `variance_reduction` parameter on the gradients?")
 
 # ╔═╡ 09fe9f66-4495-4936-9fff-683da0a50718
 md"## Training loop"
