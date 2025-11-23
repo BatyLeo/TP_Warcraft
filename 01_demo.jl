@@ -444,7 +444,7 @@ md"Contour plot of the differentiable loss:"
 md"## Visualizing gradients"
 
 # ╔═╡ 0e022469-7d68-4a54-a577-e7b7d3ae4cb9
-question_box(md"3. What's the impact of the `variance_reduction` parameter on the gradients?")
+question_box(md"3. What's the impact of the `variance_reduction` parameter on the gradients? What's the impact of ``\varepsilon`` and of the number of samples?")
 
 # ╔═╡ 09fe9f66-4495-4936-9fff-683da0a50718
 md"## Training loop"
@@ -512,7 +512,7 @@ md"Again, a simple training loop using Flux, minimizing the Fenchel-Young loss o
 md"## Plotting loss and gap history"
 
 # ╔═╡ 6638f88d-5af0-49d6-a6f9-8b74fbb2df04
-question_box(md"6. Compare risk minimization and supervised learning experiments, in terms of runtime, convergence, and performance.")
+question_box(md"6. Compare risk minimization and supervised learning experiments, in terms of runtime, convergence, and performance, and the impact of ``varepsilon`` and the number of samples on both experiments.")
 
 # ╔═╡ bb98d7da-786c-4e64-acff-afb243dac706
 md"# Appendix"
@@ -702,7 +702,7 @@ f_milp(θ_true; instance)
 y_true
 
 # ╔═╡ 47464acc-f0f4-4d94-9476-340119eab545
-Zygote.jacobian(θ -> f(θ; instance), θ)
+Zygote.jacobian(θ -> f(θ; instance), θ)[1]
 
 # ╔═╡ cf16c70a-1ec7-4ba3-9585-d101bd2d5864
 y = f(initial_model(x); instance)

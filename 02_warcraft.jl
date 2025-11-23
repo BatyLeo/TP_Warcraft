@@ -636,7 +636,7 @@ end;
 plot_image_weights_path(dataset[n]...)
 
 # ╔═╡ af2c2d84-9d0c-4da7-8ede-11d00ba08989
-TODO("Implement a full Fenchel-Young loss training with an additive perturbation as shown in the demo tutorial. Evaluate the performance of the resulting policy and visualize the predicted paths with respect to imitated ones (you can use the `plot_image_weights_path` function for this). Comment your experiments and results (some figures/tables/visualization may be useful).")
+TODO("Implement a full Fenchel-Young loss training with an additive perturbation as shown in the demo tutorial. Evaluate the performance of the resulting policy and visualize the predicted paths with respect to imitated ones (you can use the `plot_image_weights_path` function for this). Comment your experiments and results (some figures/tables/visualizations may be useful).")
 
 # ╔═╡ 59643a4a-cde4-46bd-879f-8b9114ede1b4
 md"""
@@ -660,7 +660,7 @@ question_box(md"9. What is the advantage of this perturbation compared with the 
 md"We omit the details of the loss derivations and concentrate on implementation."
 
 # ╔═╡ 1c92e6c5-6f0a-4f8a-90eb-fd562412fd8c
-TODO("Implement the training similarly to previous subsection, by using a multiplicative perturbation instead of the additive one. Comment your experiments and results (some figures/tables/visualization may be useful).")
+TODO("Implement the training similarly to previous subsection, by using a multiplicative perturbation instead of the additive one. Comment your experiments and results (some figures/tables/visualizations may be useful).")
 
 # ╔═╡ eca7efae-9123-4bac-a0a6-1175ecdd902a
 hint(md"You can modify the previous additive implementation below, by replacing the `PerturbedAdditive` regularization with a `PerturbedMultiplicative` one.")
@@ -671,7 +671,7 @@ md"""
 """
 
 # ╔═╡ 3d67bdde-d719-433f-a1a9-c80564723ed8
-TODO(md"Replace the `FenchelYoungLoss` by a `SPOPlusLoss` in order to leverage the knowledge about the true costs in the train dataset. Comment your experiments and results (some figures/tables/visualization may be useful).")
+TODO(md"Replace the `FenchelYoungLoss` by a `SPOPlusLoss` in order to leverage the knowledge about the true costs in the train dataset. Comment your experiments and results (some figures/tables/visualizations may be useful).")
 
 # ╔═╡ b8f6f6d0-a211-4525-a7f1-4975420c70e3
 hint(md"You can replace the `FenchelYoungLoss` by `SPOPlusLoss(true_maximizer)`, we do not need to use the `Perturbed` here.")
@@ -687,7 +687,7 @@ When we restrict the train dataset to images $I$ and black-box cost functions $c
 """
 
 # ╔═╡ 1bc9268f-6584-406f-bbec-bfe396d2808c
-TODO(md"Modify the code above to learn in a non-supervised way through risk minimization using a multiplicative perturbation and the black-box cost function. Comment your experiments and results (some figures/tables/visualization may be useful).")
+TODO(md"Modify the code above to learn in a non-supervised way through risk minimization using a multiplicative perturbation and the black-box cost function. Comment your experiments and results (some figures/tables/visualizations may be useful).")
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
